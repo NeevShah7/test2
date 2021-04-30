@@ -6,13 +6,17 @@
     <body>
     <div>
         <p id="one">Hello. Welcome!!!...</p>
-        <button id="two" onclick="function1()">Click me</button>
+        <button id="two" onclick="function1() ; function2()">Click me</button>
         </div>
         
         <script>
             
             function function1(){
                 document.getElementById("one").innerHTML = ("This is a testing page!!...")
+            }
+            
+            function function2(){
+                document.getElementById("one").style.backgroundColor = "aliceblue";
             }
             
                 </script>
